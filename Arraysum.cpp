@@ -6,11 +6,13 @@ int main(){
 	
 	int mark[5];
 	int i;
+	int sum = 0;
 	
 	for(int i=0; i<=5; i++){
 		
 		cout<<"Enter marks: ";
 		cin>>mark[i];
+//		sum+=mark[i];
 		
 	}
 	
@@ -18,8 +20,10 @@ int main(){
 		
 		cout<<mark[i]<<" ";
 		
+	
+		
 	}
-	cout<<"\n"<<"Third Mark "<<mark[3];
+//	cout<<"sum is "<<sum;
 
 	return 0;
 }
